@@ -17,4 +17,10 @@ public:
     static bool test_full_size_normal();
     static bool test_full_size_zero();
     static bool test_full_size_inverted();
+
+    // тесты body_size()
+    static bool test_body_size_normal();
+    static bool test_body_size_zero();
+    static bool test_body_size_negative();
+
 };

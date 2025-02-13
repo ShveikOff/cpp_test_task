@@ -49,3 +49,18 @@ bool Tests::test_full_size_inverted() {
     return !candle.full_size() == -40;
 }
 
+// Тесты body_size()
+bool Tests::test_body_size_normal() {
+    Candle candle(100, 120, 80, 110);
+    return candle.body_size() == 10;
+}
+
+bool Tests::test_body_size_zero() {
+    Candle candle(100, 120, 80, 100);
+    return candle.body_size() == 0;
+}
+
+bool Tests::test_body_size_negative() {
+    Candle candle(110, 120, 80, 100);
+    return candle.body_size() == 10;
+}

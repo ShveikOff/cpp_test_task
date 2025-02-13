@@ -23,6 +23,11 @@ void initTests()
   tests.push_back(Tests::test_full_size_normal);
   tests.push_back(Tests::test_full_size_zero);
   tests.push_back(Tests::test_full_size_inverted);
+
+  // тесты body_size()
+  tests.push_back(Tests::test_body_size_normal);
+  tests.push_back(Tests::test_body_size_zero);
+  tests.push_back(Tests::test_body_size_negative);
 }
 
 int launchTests()
