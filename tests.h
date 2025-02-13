@@ -21,7 +21,7 @@ public:
     // тесты body_size()
     static bool test_body_size_normal();
     static bool test_body_size_zero();
-    static bool test_body_size_negative();
+    static bool test_body_size_inverted();
 
     // тесты is_red()
     static bool test_is_red_true();
