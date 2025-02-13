@@ -18,6 +18,11 @@ void initTests()
   tests.push_back(Tests::test_contains_inside);
   tests.push_back(Tests::test_contains_border);
   tests.push_back(Tests::test_contains_outside);
+
+  // тесты full_size()
+  tests.push_back(Tests::test_full_size_normal);
+  tests.push_back(Tests::test_full_size_zero);
+  tests.push_back(Tests::test_full_size_inverted);
 }
 
 int launchTests()
