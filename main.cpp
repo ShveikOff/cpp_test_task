@@ -13,6 +13,11 @@ void initTests()
   tests.push_back(Tests::test_body_contains_inside);
   tests.push_back(Tests::test_body_contains_border);
   tests.push_back(Tests::test_body_contains_outside);
+
+  // тесты contains()
+  tests.push_back(Tests::test_contains_inside);
+  tests.push_back(Tests::test_contains_border);
+  tests.push_back(Tests::test_contains_outside);
 }
 
 int launchTests()
