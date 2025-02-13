@@ -1,0 +1,24 @@
+# Игнорируем папку сборки CMake
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/cmake_install.cmake
+
+# Игнорируем бинарные файлы
+*.exe
+*.out
+*.obj
+*.o
+*.so
+*.dll
+*.a
+*.lib
+
+# Игнорируем временные файлы редакторов
+*.swp
+*.swo
+*.vscode
+*.idea
+*.DS_Store
+*.log
