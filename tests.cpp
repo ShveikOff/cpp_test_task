@@ -80,3 +80,19 @@ bool Tests::test_is_red_equal() {
     Candle candle(100, 120, 80, 100);
     return !candle.is_red();
 }
+
+// Тесты is_green()
+bool Tests::test_is_green_true() {
+    Candle candle(100, 120, 80, 110);
+    return candle.is_green();
+}
+
+bool Tests::test_is_green_false() {
+    Candle candle(110, 120, 80, 100);
+    return !candle.is_green();
+}
+
+bool Tests::test_is_green_equal() {
+    Candle candle(100, 120, 80, 100);
+    return !candle.is_green();
+}

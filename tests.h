@@ -27,4 +27,9 @@ public:
     static bool test_is_red_true();
     static bool test_is_red_false();
     static bool test_is_red_equal();
+
+    // тесты is_green()
+    static bool test_is_green_true();
+    static bool test_is_green_false();
+    static bool test_is_green_equal();
 };
