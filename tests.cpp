@@ -45,8 +45,8 @@ bool Tests::test_full_size_zero() {
 }
 
 bool Tests::test_full_size_inverted() {
-    Candle candle(100, 120, 80, 110);
-    return !candle.full_size() == -40;
+    Candle candle(100, 80, 120, 110);
+    return candle.full_size() == 40;
 }
 
 // Тесты body_size()
