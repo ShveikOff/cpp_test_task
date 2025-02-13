@@ -64,3 +64,19 @@ bool Tests::test_body_size_negative() {
     Candle candle(110, 120, 80, 100);
     return candle.body_size() == 10;
 }
+
+// Тесты is_red()
+bool Tests::test_is_red_true() {
+    Candle candle(110, 120, 80, 100);
+    return candle.is_red();
+}
+
+bool Tests::test_is_red_false() {
+    Candle candle(100, 120, 80, 100);
+    return !candle.is_red();
+}
+
+bool Tests::test_is_red_equal() {
+    Candle candle(100, 120, 80, 100);
+    return !candle.is_red();
+}

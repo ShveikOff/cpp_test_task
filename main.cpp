@@ -28,6 +28,11 @@ void initTests()
   tests.push_back(Tests::test_body_size_normal);
   tests.push_back(Tests::test_body_size_zero);
   tests.push_back(Tests::test_body_size_negative);
+
+  // тесты is_red()
+  tests.push_back(Tests::test_is_red_true);
+  tests.push_back(Tests::test_is_red_false);
+  tests.push_back(Tests::test_is_red_equal);
 }
 
 int launchTests()

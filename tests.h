@@ -23,4 +23,8 @@ public:
     static bool test_body_size_zero();
     static bool test_body_size_negative();
 
+    // тесты is_red()
+    static bool test_is_red_true();
+    static bool test_is_red_false();
+    static bool test_is_red_equal();
 };
